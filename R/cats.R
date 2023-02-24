@@ -8,6 +8,7 @@
 #' @export
 #'
 #' @examples cat(TRUE)
+#' 
 cats <- function(love = TRUE) {
   if(love == TRUE) {
     msg <- "I love cats!"
